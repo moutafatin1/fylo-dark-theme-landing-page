@@ -1,4 +1,9 @@
-import { FeatureSection, Header, IntroSection } from "./components";
+import {
+  DescriptionSection,
+  FeatureSection,
+  Header,
+  IntroSection,
+} from "./components";
 
 const App = () => {
   return (
@@ -6,6 +11,7 @@ const App = () => {
       <Header />
       <IntroSection />
       <FeatureSection />
+      <DescriptionSection />
     </>
   );
 };
