@@ -3,7 +3,7 @@ import Logo from "../assets/images/logo.svg";
 export const Header = () => {
   return (
     <header className="font-raleway">
-      <div className="container mx-auto flex items-center justify-between p-6">
+      <div className="container mx-auto flex items-center justify-between px-6 py-12">
         <img
           src={Logo}
           alt="Logo"
