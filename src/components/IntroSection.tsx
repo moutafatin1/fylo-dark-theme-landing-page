@@ -9,7 +9,7 @@ export const IntroSection = () => {
         alt="intro illustration"
         className="my-6 mx-auto"
       />
-      <div className=" mx-auto max-w-2xl space-y-4 md:space-y-6">
+      <div className="mx-auto max-w-2xl space-y-4 md:space-y-6">
         <h1 className="text-3xl font-bold text-white  md:text-4xl">
           All your files in one secure location, accessible anywhere.
         </h1>
