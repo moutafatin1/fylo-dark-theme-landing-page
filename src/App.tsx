@@ -3,6 +3,7 @@ import {
   FeatureSection,
   Header,
   IntroSection,
+  TestimonialsSection,
 } from "./components";
 
 const App = () => {
@@ -12,6 +13,7 @@ const App = () => {
       <IntroSection />
       <FeatureSection />
       <DescriptionSection />
+      <TestimonialsSection />
     </>
   );
 };
