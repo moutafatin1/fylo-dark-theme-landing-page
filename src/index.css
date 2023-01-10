@@ -10,3 +10,9 @@
     @apply bg-gradient-to-r from-ctaGradientFrom to-ctaGradientTo;
   }
 }
+
+@layer base {
+  body {
+    @apply bg-mainBg;
+  }
+}

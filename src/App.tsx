@@ -1,10 +1,10 @@
-import { ReactComponent as Icon } from "./assets/images/icon-access-anywhere.svg";
+import { Header } from "./components";
 
 const App = () => {
   return (
-    <div>
-      <Icon />
-    </div>
+    <>
+      <Header />
+    </>
   );
 };
 
