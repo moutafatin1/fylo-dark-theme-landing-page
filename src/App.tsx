@@ -1,9 +1,10 @@
-import { Header } from "./components";
+import { Header, IntroSection } from "./components";
 
 const App = () => {
   return (
     <>
       <Header />
+      <IntroSection />
     </>
   );
 };

@@ -16,6 +16,9 @@ module.exports = {
         raleway: ["Raleway", "sans-serif"],
         openSans: ["Open Sans", "sans-serif"],
       },
+      backgroundImage: {
+        curvyMobile: "url('./assets/images/bg-curvy-mobile.svg')",
+      },
     },
   },
   plugins: [require("@tailwindcss/forms")],
