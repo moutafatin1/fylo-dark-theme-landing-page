@@ -1,6 +1,8 @@
 import {
   DescriptionSection,
   FeatureSection,
+  Footer,
+  GetEarlyAccess,
   Header,
   IntroSection,
   TestimonialsSection,
@@ -14,6 +16,8 @@ const App = () => {
       <FeatureSection />
       <DescriptionSection />
       <TestimonialsSection />
+      <GetEarlyAccess />
+      <Footer />
     </>
   );
 };

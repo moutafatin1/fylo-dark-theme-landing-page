@@ -35,7 +35,7 @@ const testimonials = [
 
 export const TestimonialsSection = () => {
   return (
-    <section className="relative -z-10 bg-mainBg py-16">
+    <section className="relative -z-10 bg-mainBg py-72 pt-16">
       <div className="container mx-auto flex flex-col gap-8 px-6 lg:flex-row lg:px-0">
         {testimonials.map((t) => (
           <TestimonialCard key={t.user.name} testimonial={t} />
